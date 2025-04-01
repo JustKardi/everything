@@ -1,0 +1,40 @@
+body {
+    overflow-x: hidden;
+}
+.title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(148, 191, 237);
+    font-size: 3.5vw;
+}
+.info {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgb(222, 148, 237);
+    margin-top: 0;
+}
+.container {
+    display: grid;
+    width: 100vw;
+    position: fixed;
+    margin-top: 2vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    width: 30vw;
+    height: 10vw;
+    background-color: rgb(222, 148, 237);
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0.5vw;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(148, 191, 237);
+    cursor: pointer;
+}
